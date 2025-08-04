@@ -1,0 +1,51 @@
+body {
+    font-family: 'Ubuntu', 'Calibri', 'sans-serif';
+    background: #003366;
+}
+h1 {
+    padding: 0px 0 20px 0;
+    font-size: 2.5em;
+    margin: 0;
+    color: #fff;
+    text-align: center;
+}
+ul.levels {
+    list-style-type: none;
+    width: 252px;
+    margin: 0 auto 20px auto;
+    padding: 0;
+}
+
+ul.levels li {
+    display: inline-block; 
+}
+
+ul.levels li:nth-child(1) {
+    width: 52px;
+}
+ul.levels li:nth-child(2) {
+    width: 140px;
+}
+
+ul.levels li:nth-child(3) {
+    width: 52px	;
+}
+
+ul.levels li a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.2em;
+    display: block; 
+    color: white;
+}
+
+ul.levels li a:hover {
+    transition: 0.4s;
+    background: #999999;
+}
+
+canvas {
+    display: block;
+    margin:0 auto;
+}
+
